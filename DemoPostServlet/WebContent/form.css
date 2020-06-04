@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.form-control {
+	margin-top: 40;
+}
+.radio-inline{
+	margin-left: 50px;
+}
+.gender{
+	text-align: center;
+	margin-top : 30px;
+}
+#dangky{
+	margin-left: 40%;
+	margin-top: 40px;
+}
+#reset{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.mb-3{
+	margin-left: 40%;
+	margin-top : 20px;
+	border-radius: 30px;
+}

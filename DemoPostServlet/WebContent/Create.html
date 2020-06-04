@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+	<form action="Register" method="post" >
+	
+	 		<div class="input-group mb-3">
+				User Name : <input class="form-control" placeholder="user name" type="text" name="userName"/> 		
+	 		</div>
+	 		
+	 		<div class="input-group mb-3">		
+				Password: <input class="form-control" placeholder="password" type="text" name="password"/>
+			</div>
+			
+			<div class="input-group mb-3">		
+				Email : <input class="form-control" placeholder="email" type="text" name="email" />
+			</div>
+			
+			<div class="input-group mb-3">		
+				BirthDay : <input class="form-control" placeholder="birthday" type="text" name="birthday" />
+			</div>	
+			
+			<div class="input-group mb-3">		
+				Address : <input class="form-control" placeholder="address" type="text" name="address"/>
+			</div>		
+			
+			<div class="gender">Gender :
+			<label class="radio-inline"><input type="radio" name="gender" value="Male" /> Male</label>
+			<label class="radio-inline"><input type="radio" name="gender" value="Female" /> Female</label>
+			<label class="radio-inline"><input type="radio" name="gender" value="Unknow" /> Unknow</label>
+			</div>
+
+			<input id="dangky" class="btn btn-primary" type="submit" value="Đăng Ký" />
+			<input id="reset" class="btn btn-primary" type="reset" value="Reset" />
+	</form>
+</body>
+</html>

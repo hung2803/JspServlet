@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.username{
+	margin-left: 50px;
+	text-align: center;
+}
+.form{
+	 background-image: url(../img/jumbotronbackground.jpg);
+}
+.text{
+	text-align: center;
+	color : red;
+}
